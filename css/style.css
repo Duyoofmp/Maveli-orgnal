@@ -54,7 +54,7 @@ h6 {
 
 p {
     font-size: 0.9em;
-    color: #8c9398;
+    color: #011829;
     line-height: 2em;
     letter-spacing: 1px;
 }
@@ -150,11 +150,13 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #d63031;
+    color: #029400;
 }
 
 .menu li.active a {
-    color: #d63031;
+    color: #029400;
+    font-weight:400;
+    font-size: medium;
 }
 
 /* Hide Dropdowns by Default
@@ -352,7 +354,7 @@ li > a:only-child:after {
 /*-- banner --*/
 
 .main-content {
-    background: url(../images/banner.jpg) no-repeat center;
+    background: url(https://cdn.dribbble.com/users/1118956/screenshots/7127431/media/0c807f93cf5c7f6d653f00ae9d52046b.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -373,6 +375,7 @@ li > a:only-child:after {
 }
 
 .banner-info-w3ls h1 {
+    margin-top: 150px;
     font-size: 6em;
     letter-spacing: 1px;
     color: #fff;
@@ -782,7 +785,7 @@ p.main_p3 {
 .exp-grids span {
     font-size: 13px;
     background: #d63031;
-    color: #fff;
+    color: rgb(2, 1, 1);
     padding: 2px 10px;
 }
 
@@ -957,47 +960,7 @@ section#gallery {
 
 /*-- //gallery --*/
 
-/*-- /testimonials --*/
 
-.testimonials {
-    background: #f7f7f7;
-}
-
-.test-grid {
-    padding: 4em;
-    background: transparent;
-}
-
-.sub-tittle-team {
-    font-size: 0.67em;
-    color: #00b894;
-    font-weight: 600;
-    letter-spacing: 2px;
-    display: block;
-    text-transform: uppercase;
-}
-
-.test-info h3 {
-    color: #515156;
-    margin-bottom: 0.8em;
-    font-size: 1.2em;
-    font-weight: 400;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.test-img img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -moz-border-radius: 50%;
-    padding: 8px;
-    background: #dcdcdc;
-    margin-top: 1em;
-}
-
-/*-- //testimonials --*/
 
 /*--  contact --*/
 
@@ -1103,7 +1066,8 @@ section#gallery {
 /*-- footer --*/
 
 footer {
-    background: url(../images/banner.jpg) bottom left no-repeat;
+    background: url() bottom left no-repeat;
+    background-color: #861673;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1116,44 +1080,11 @@ footer {
     margin-top: 5em;
 }
 
-.social ul li {
-    display: inline-block;
-}
-
-.social ul li a {
-    color: #999;
-    text-align: center;
-}
-
-.social ul li a span {
-    height: 42px;
-    width: 42px;
-    font-size: 13px;
-    background: #fff;
-    line-height: 42px;
-    color: #212529;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
-    -ms-border-radius: 2px;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    border: none;
-}
-
-.social ul li a span:hover {
-    background: #d63031;
-    color: #fff;
-}
 
 .copyright p,
 .copyright p a {
-    color: #999;
-    font-size: 15px;
+    color: rgb(245, 245, 245);
+    font-size: 40px;
     margin: 0;
     letter-spacing: 1px;
     line-height: 28px;
@@ -1169,7 +1100,7 @@ a.move-top span {
     height: 34px;
     border: transparent;
     line-height: 1.9em;
-    background: #d63031;
+    background: #3017eca3;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -o-border-radius: 4px;
