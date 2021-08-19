@@ -154,7 +154,9 @@ nav a:hover {
 }
 
 .menu li.active a {
-    color: #d63031;
+    color: #029400;
+    font-weight:400;
+    font-size: medium;
 }
 
 /* Hide Dropdowns by Default
@@ -352,7 +354,7 @@ li > a:only-child:after {
 /*-- banner --*/
 
 .main-content {
-    background: url(../images/banner.jpg) no-repeat center;
+    background: url(https://cdn.dribbble.com/users/1118956/screenshots/7127431/media/0c807f93cf5c7f6d653f00ae9d52046b.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -373,6 +375,7 @@ li > a:only-child:after {
 }
 
 .banner-info-w3ls h1 {
+    margin-top: 150px;
     font-size: 6em;
     letter-spacing: 1px;
     color: #fff;
