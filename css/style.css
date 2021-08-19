@@ -1106,7 +1106,8 @@ section#gallery {
 /*-- footer --*/
 
 footer {
-    background: url(../images/banner.jpg) bottom left no-repeat;
+    background: url(https://wallpapercave.com/wp/1OuamqC.jpg) bottom left no-repeat;
+    background-color: #861673;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1119,44 +1120,11 @@ footer {
     margin-top: 5em;
 }
 
-.social ul li {
-    display: inline-block;
-}
-
-.social ul li a {
-    color: #999;
-    text-align: center;
-}
-
-.social ul li a span {
-    height: 42px;
-    width: 42px;
-    font-size: 13px;
-    background: #fff;
-    line-height: 42px;
-    color: #212529;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
-    -ms-border-radius: 2px;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    border: none;
-}
-
-.social ul li a span:hover {
-    background: #d63031;
-    color: #fff;
-}
 
 .copyright p,
 .copyright p a {
-    color: #999;
-    font-size: 15px;
+    color: rgb(245, 245, 245);
+    font-size: 40px;
     margin: 0;
     letter-spacing: 1px;
     line-height: 28px;
@@ -1172,7 +1140,7 @@ a.move-top span {
     height: 34px;
     border: transparent;
     line-height: 1.9em;
-    background: #d63031;
+    background: #3017eca3;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -o-border-radius: 4px;
