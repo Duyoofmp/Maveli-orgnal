@@ -1345,7 +1345,7 @@ a.move-top span {
     }
     h2.main_head,
     h3.main_head {
-        font-size: 1.2em;
+        font-size: .7em;
     }
     .mid p {
         width: 100%;
@@ -1371,7 +1371,7 @@ a.move-top span {
         left: 50%;
     }
     p.main_p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     a.work,
     a.hire:hover,
